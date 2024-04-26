@@ -1,0 +1,22 @@
+.logo{
+    cursor: pointer;
+    width: 50PX;
+    height: 50PX;
+    border-radius: 10px;
+}
+
+.logo .C{
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    
+    margin: 2px 10px;
+}
+
+.logo .H{
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+   
+    margin: 12px 25px;
+}
