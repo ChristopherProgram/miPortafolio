@@ -56,6 +56,10 @@
         .card-text{
             display: flex;
         }
+
+        .margen{
+            margin: auto 5px;
+        }
     </style>
 
     <header class="header navbar bg-body-tertiary">
@@ -75,24 +79,51 @@
         </nav>
     </header>
 
-    <div id="saludo" class="saludo card">
-        <img src="https://img.freepik.com/vector-gratis/flujo-diseno-codigo-binario_53876-97406.jpg" class="card-img" alt="..." width="500" height="500">
+    <div id="saludo" class="card">
+        <img src="https://img.freepik.com/vector-gratis/flujo-diseno-codigo-binario_53876-97406.jpg" class="card-img" alt="..." width="100%" height="500">
         <div class="card-img-overlay">
-          <div class="card-title">
+            <div class="card-title">
             <h1>Christopher Silva</h1>
             <h2 >Programador</h2>
-          </div>
-          <br>
-          <div class="card-text">
+            </div>
+            <br>
+            <div class="card-text">
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla corrupti, vero, aspernatur quisquam delectus est asperiores reprehenderit impedit quam earum perspiciatis cupiditate blanditiis numquam tempore? Commodi et libero eaque eveniet.
             </p>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quas blanditiis! Eligendi maiores ullam optio, vero fugiat qui provident tempore eos facilis modi, totam eaque in quia excepturi nisi ducimus.
             </p>
-          </div>
+            </div>
         </div>
-      </div>
+    </div>
+
+    <hr>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4 margen" >
+        <div class="col">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
     
 </body>
 </html>
