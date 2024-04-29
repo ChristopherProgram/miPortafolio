@@ -1,0 +1,59 @@
+body{
+    overflow: hidden;
+}
+
+.header{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+
+.logo{
+    background-color: #ffa7a7;
+    color: #ffffff;
+}
+
+.menu{
+    width: 35em;
+    justify-content: space-around;
+}
+
+.menu-titu{
+    margin: auto;
+}
+.menu-ul{
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.link:hover{
+    color: #0000001f;
+}
+
+#saludo{
+    background-color: #ffa7a7;
+    color: #ffffff;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card-text{
+    display: flex;
+}
+
+.margen{
+    margin: 5px;
+}
+
+.formulario{
+    color: #ffffff;
+    background: #afafaf;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
